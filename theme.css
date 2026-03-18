@@ -1,0 +1,111 @@
+.theme-dark {
+  /* ── Base ─────────────────────────────────────────── */
+  --background-primary:              #1A1A1A; /* background */
+  --background-primary-alt:         #181825; /* surface / elevated background */
+  --background-secondary:           #181825; /* surface */
+  --background-secondary-alt:       #11111B; /* deep background / titlebar */
+  --background-modifier-border:     #6C7086; /* inactive border */
+  --background-modifier-form-field: #181825; /* surface */
+  --background-modifier-form-field-highlighted: #1A1A1A; /* background */
+  --background-modifier-box-shadow: #11111B; /* deep background */
+  --background-modifier-cover:      #11111B; /* deep background */
+  --background-modifier-success:    #30A64E; /* success */
+  --background-modifier-error:      #FF6930; /* error */
+  --background-modifier-error-hover:#FF6930; /* error */
+
+  /* ── Text ─────────────────────────────────────────── */
+  --text-normal:          #F0F0F0; /* foreground */
+  --text-muted:           #CDD6F4; /* subtle / secondary text */
+  --text-faint:           #6C7086; /* muted / disabled */
+  --text-on-accent:       #11111B; /* active tab fg / deep bg */
+  --text-error:           #FF6930; /* error */
+  --text-success:         #30A64E; /* success */
+  --text-selection:       #F0F0F0; /* selection bg */
+  --text-accent:          #7977CF; /* primary accent */
+  --text-accent-hover:    #7977CF; /* primary accent */
+
+  /* ── Links ────────────────────────────────────────── */
+  --link-color:                 #2888A6; /* secondary accent / info */
+  --link-color-hover:           #7977CF; /* primary accent */
+  --link-external-color:        #2888A6; /* secondary accent */
+  --link-external-color-hover:  #7977CF; /* primary accent */
+  --link-unresolved-color:      #6C7086; /* muted */
+  --link-unresolved-opacity:    1;
+
+  /* ── Interactive ──────────────────────────────────── */
+  --interactive-normal:        #181825; /* surface */
+  --interactive-hover:         #1A1A1A; /* background */
+  --interactive-accent:        #7977CF; /* primary accent */
+  --interactive-accent-hover:  #7977CF; /* primary accent */
+  --interactive-before:        #6C7086; /* muted */
+
+  /* ── Scrollbar ────────────────────────────────────── */
+  --scrollbar-bg:               #11111B; /* deep background */
+  --scrollbar-thumb-bg:         #6C7086; /* muted */
+  --scrollbar-active-thumb-bg:  #7977CF; /* primary accent */
+
+  /* ── Tabs ─────────────────────────────────────────── */
+  --tab-background-active:     #7977CF; /* active tab bg */
+  --tab-text-color-active:     #11111B; /* active tab fg */
+  --tab-background-inactive:   #181825; /* inactive tab bg */
+  --tab-text-color-inactive:   #CDD6F4; /* inactive tab fg */
+  --tab-outline-color:         #6C7086; /* inactive border */
+
+  /* ── Titlebar / Header ────────────────────────────── */
+  --titlebar-background:          #11111B; /* deep background */
+  --titlebar-background-focused:  #11111B; /* deep background */
+  --titlebar-text-color:          #CDD6F4; /* subtle text */
+  --titlebar-text-color-focused:  #F0F0F0; /* foreground */
+
+  /* ── Borders & Dividers ───────────────────────────── */
+  --divider-color:         #6C7086; /* inactive border */
+  --modal-border-color:    #7977CF; /* active border / primary accent */
+  --prompt-border-color:   #7977CF; /* active border */
+
+  /* ── Highlights & Selection ───────────────────────── */
+  --text-highlight-bg:          #FFBD2B; /* warning / caution */
+  --text-highlight-bg-active:   #FFBD2B; /* warning */
+
+  /* ── Tags ─────────────────────────────────────────── */
+  --tag-background:        #181825; /* surface */
+  --tag-background-hover:  #1A1A1A; /* background */
+  --tag-color:             #7977CF; /* primary accent */
+  --tag-color-hover:       #7977CF; /* primary accent */
+  --tag-border-color:      #7977CF; /* active border */
+
+  /* ── Callouts ─────────────────────────────────────── */
+  --callout-default:   #7977CF; /* primary accent */
+  --callout-info:      #2888A6; /* secondary accent / info */
+  --callout-todo:      #2888A6; /* info */
+  --callout-tip:       #30A64E; /* success */
+  --callout-success:   #30A64E; /* success */
+  --callout-warning:   #FFBD2B; /* warning */
+  --callout-caution:   #FFBD2B; /* warning */
+  --callout-error:     #FF6930; /* error */
+  --callout-bug:       #FF6930; /* error */
+  --callout-example:   #7977CF; /* primary accent */
+  --callout-quote:     #6C7086; /* muted */
+
+  /* ── Code blocks ──────────────────────────────────── */
+  --code-background:   #11111B; /* deep background */
+  --code-normal:       #F0F0F0; /* foreground */
+  --code-comment:      #6C7086; /* muted */
+  --code-function:     #7977CF; /* primary accent / magenta */
+  --code-important:    #FF6930; /* error / red */
+  --code-keyword:      #7977CF; /* primary accent */
+  --code-operator:     #7DBED1; /* cyan */
+  --code-property:     #2888A6; /* secondary accent / blue */
+  --code-punctuation:  #CDD6F4; /* subtle text */
+  --code-string:       #30A64E; /* success / green */
+  --code-tag:          #FF6930; /* error / red */
+  --code-value:        #FFBD2B; /* warning / yellow */
+
+  /* ── Graph ────────────────────────────────────────── */
+  --graph-node:          #6C7086; /* muted */
+  --graph-node-focused:  #7977CF; /* primary accent */
+  --graph-node-tag:      #7977CF; /* primary accent */
+  --graph-node-attachment: #2888A6; /* secondary accent */
+  --graph-node-unresolved: #6C7086; /* muted */
+  --graph-line:          #6C7086; /* muted */
+  --graph-arrow:         #2888A6; /* secondary accent */
+}
