@@ -10,14 +10,6 @@ Patagum Theme for Obsidian
 
 ## Installation
 
-### From the Community Themes browser (recommended)
-
-1. Open Obsidian and go to **Settings → Appearance**
-2. Under **Themes**, click **Manage**
-3. Search for **Patagum** and click **Install and use**
-
-### Manual installation
-
 1. Download `theme.css` and `manifest.json` from this repository
 2. In your vault, create the folder `.obsidian/themes/Patagum/`
 3. Place both files inside that folder
